@@ -1,5 +1,5 @@
 # Katherina Morozova
-## ****Contacts****
+## **Contacts**
 * **Phone:** +375 33 373 06 41
 
 
@@ -24,7 +24,7 @@ My goal is to practice creating convenient and understandable user interfaces, l
     * HTML
     * CSS
     * Photoshop
-2. **Sof skills:**
+2. **Soft skills:**
     * commitment
     * attentiveness
     * sociability
