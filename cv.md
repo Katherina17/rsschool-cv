@@ -19,7 +19,7 @@ I like the variety and simplicity of tools that frontend offers.
 
 My goal is to practice creating convenient and understandable user interfaces, learn to apply the knowledge gained in practice and make money on it. 
 
-## **Skils**
+## **Skills**
 1. **Hard skills:**
     * HTML
     * CSS
