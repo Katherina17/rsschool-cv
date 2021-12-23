@@ -30,7 +30,8 @@ My goal is to practice creating convenient and understandable user interfaces, l
     * sociability
 
 ## **Code example**
-``` const areaOrPerimeter = function(l , w) {
+``` 
+ const areaOrPerimeter = function(l , w) {
  if (l==w) {
  let area = l * w;
    return area
@@ -41,6 +42,7 @@ My goal is to practice creating convenient and understandable user interfaces, l
   }  
 };
 ```
+
 ## **Experience**
 
 I made the simple project a few weeks ago based on layout. It was my first project. I used HTML, CSS, JS. I didn't use responsive images. All information that I learned I found at the youtube channels and MDN.
