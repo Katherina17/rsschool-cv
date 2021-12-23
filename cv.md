@@ -19,4 +19,44 @@ I like the variety and simplicity of tools that frontend offers.
 
 My goal is to practice creating convenient and understandable user interfaces, learn to apply the knowledge gained in practice and make money on it. 
 
+## **Skils**
+1. **Hard skills:**
+    * HTML
+    * CSS
+    * Photoshop
+2. **Sof skills:**
+    * commitment
+    * attentiveness
+    * sociability
+
+## **Code example**
+``` const areaOrPerimeter = function(l , w) {
+ if (l==w) {
+ let area = l * w;
+   return area
+  }
+  else {
+    let perimeter = 2 * ( l + w);
+    return perimeter
+  }  
+};
+```
+## **Experience**
+
+I made the simple project a few weeks ago based on layout. It was my first project. I used HTML, CSS, JS. I didn't use responsive images. All information that I learned I found at the youtube channels and MDN.
+
+**The site that i made** – https://katherina17.github.io/
+
+**Layout that i used** – https://nicepage.com/ht/536788/healthy-organic-food-html-template
+
+## **Education**
+
+I am a third year student of the Faculty of Humanities and Economics GSTU named after P.O. Sukhoi.
+
+## **English**
+
+B1. I chated with foreigners on social media a little bit.
+
+
+
 
