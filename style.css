@@ -113,53 +113,75 @@ nav ul {
 	padding: 0.7rem
 }
 
-a:hover{
+.menu a:hover{
 	color: violet;
 	background-color: rgba(238, 130, 238, 0.123);
 }
 
-a:active{
+.menu a:active{
 	color: rgb(241, 80, 241);
 }
 
-.about-me{
-	height: 50rem;
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem;
+}
+
+#profile-picture{
+	margin: 7rem auto 0 auto;
+}
+
+section{
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
-	align-items: center;
 }
 
-.about-me img{
-	display: block;
-	position: absolute;
-	top: 10rem;
-	left: 27%;
-}
-
-.info-about{
-	width: 40%;
-	background-color: rgb(243 248 252);
-	margin-top: 15rem;
-	margin-left: 50%;
+.section-text-wrapper h2{
 	padding: 1rem;
-	border-radius: 5px;
+	
 }
 
-.info-about h2{
-	margin-bottom: 1rem;
-	margin-left: 1rem;
+.section-text-wrapper{
+	width: 75%;
+	background-color: #98c5e51e;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem;
 }
+
+.expr-section a:hover{
+	color: rgb(241, 80, 241);
+}
+
+.expr-section a{
+	line-height: 2rem;
+	text-align: justify;
+	text-indent: 1rem;
+	font-size: 1.5rem;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+}
+
+.info-code code{
+	display: flex;
+	padding: 0;
+}
+
 
 @media (max-width:800px) {
 	#container{
 		margin: 0;
 	}
 
-	.info-about{
-		margin-top: 46rem;
-		width: 80%;
-		height:50rem;
-		margin-left: 0;
+	main{
+		grid-template-columns: 1fr;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 	}
 }
 
