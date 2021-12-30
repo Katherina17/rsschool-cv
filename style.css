@@ -58,10 +58,8 @@ h1{
 	font-size: 5rem;
 	font-weight: bold;
 	text-align: center;
-	font-family: 'PT Sans', sans-serif;
+	font-family: ltc-broadway, sans-serif;
 	margin-top: 3rem;
-	
-
 }
 
 p{
@@ -247,6 +245,31 @@ section{
 	display: inline-block;
 }
 
+footer{
+	display: flex;
+	height: 8rem;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p{
+	font-size: 1rem;
+	text-align: center;
+	margin-left: 2rem;
+}
+
+#line-footer{
+	height: 8rem;
+	background-color: #dbe5ed3b;
+	width: 100%;
+	position: relative;
+	top: 8rem;
+	z-index: -1;
+}
+
+#rs-svg{
+	margin-right: 1rem;
+}
 
 @media (max-width:800px) {
 	#container{
@@ -270,6 +293,13 @@ section{
 
 	.logo{
 		display: none;
+	}
+	.info-code{
+		margin-left: -2rem;
+	}
+
+	.info-contacts{
+		margin-left: -2rem;
 	}
 
 }
