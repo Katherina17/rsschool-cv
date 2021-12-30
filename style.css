@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rock+3D&family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Gruppo&family=Julius+Sans+One&display=swap');
 /*Обнуление*/
 *{
 	padding: 0;
@@ -37,7 +38,7 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style: none;}
+
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
@@ -52,6 +53,15 @@ h2{
 	font-size: 5rem;
 	font-weight: bold;
 	font-family: 'Oswald', sans-serif;
+}
+h1{
+	font-size: 5rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	margin-top: 3rem;
+	
+
 }
 
 p{
@@ -110,16 +120,16 @@ nav ul {
 }
 
 .menu a{
-	padding: 0.7rem
+	padding: 0.7rem;
 }
 
 .menu a:hover{
-	color: violet;
-	background-color: rgba(238, 130, 238, 0.123);
+	color: rgb(77, 169, 245);
+	background-color: rgb(77, 169, 245, 0.123);
 }
 
 .menu a:active{
-	color: rgb(241, 80, 241);
+	color: rgb(8, 64, 110);
 }
 
 main{
@@ -127,6 +137,7 @@ main{
 	grid-template-columns: 1fr 1fr;
 	gap: 3rem;
 }
+
 
 #profile-picture{
 	margin: 7rem auto 0 auto;
@@ -151,13 +162,14 @@ section{
 	justify-content: center;
 	flex-direction: column;
 	padding: 2rem;
+	margin: 0 auto;
 }
 
-.expr-section a:hover{
-	color: rgb(241, 80, 241);
+#expr-section a:hover{
+	color: rgb(77, 169, 245);
 }
 
-.expr-section a{
+#expr-section a{
 	line-height: 2rem;
 	text-align: justify;
 	text-indent: 1rem;
@@ -166,9 +178,67 @@ section{
 	font-style: italic;
 }
 
-.info-code code{
+.info-code pre{
+	margin-left: -11rem;
+	
+}
+
+.icon-svg{
+	width: 250px;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.icon-min{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+}
+
+.info-skills ul{
+	font-size: 1.5rem;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 2rem;
+	list-style-type: disc;
+}
+.info-skills ul{
+	padding-left: 1rem;
+}
+
+.info-skills li{
+	margin-left: 2.5rem;
+}
+
+.info-contacts span{
+	font-weight: bold;
+}
+
+.info-contacts li{
+	font-size: 1.5rem;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 2rem;
+	list-style-type: disc;
+	margin-left: 3.5rem;
+}
+
+.info-contacts a{
+	font-size: 1.5rem;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 2rem;
+}
+.info-contacts a:hover{
+	color: rgb(77, 169, 245);
+}
+
+.info-skills{
 	display: flex;
-	padding: 0;
+	justify-content: space-around;
+	margin-right: 17rem;
+
+}
+
+.info-skills ul{
+	display: inline-block;
 }
 
 
@@ -183,6 +253,11 @@ section{
 		align-items: center;
 		flex-direction: column;
 	}
+
+	.info-skills{
+		margin-right: 5rem;
+	}
+
 }
 
 
