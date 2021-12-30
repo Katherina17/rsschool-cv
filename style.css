@@ -120,9 +120,12 @@ nav ul {
 .menu a{
 	padding: 0.7rem;
 }
+.menu a{
+	color: #61a0ca;
+}
 
 .menu a:hover{
-	color: rgb(77, 169, 245);
+	color: rgb(36, 79, 114);
 	background-color: rgb(77, 169, 245, 0.123);
 }
 
@@ -169,8 +172,13 @@ section{
 	margin: 0 auto;
 }
 
+#expr-section a{
+	color: #61a0ca;
+
+}
+
 #expr-section a:hover{
-	color: rgb(77, 169, 245);
+	color: rgb(36, 79, 114);
 }
 
 #expr-section a{
@@ -229,9 +237,10 @@ section{
 	font-size: 1.5rem;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 2rem;
+	color: #61a0ca;
 }
 .info-contacts a:hover{
-	color: rgb(77, 169, 245);
+	color: rgb(36, 79, 114);
 }
 
 .info-skills{
